@@ -1,0 +1,38 @@
+ul{
+    list-style-type: none;
+}
+.product{
+	height: 150px !important;
+	max-width: 100%;
+}
+.pro_detail{
+	height: 200px !important;
+	max-width: 100%
+}
+.info_detail{
+	font-size: larger;
+	line-height: 30px;
+}
+.thumb_img{
+	width: 150px;
+	height: 100px;
+	border-radius: 5px;
+	margin: 3px;
+	padding: 3px;
+	box-shadow: 0px 0px 2px blue;
+}
+.thumb_img:hover{
+	box-shadow: 0px 0px 4px green;
+}
+.inline{
+	display: inline;
+}
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
